@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>OrderTaking</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Common.fs" />
+    <Compile Include="DomainApi.fs" />
+    <Compile Include="PlaceOrderWorkflow.fs" />
+  </ItemGroup>
+
+</Project>
